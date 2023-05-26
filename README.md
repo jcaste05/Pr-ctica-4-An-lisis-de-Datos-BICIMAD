@@ -5,7 +5,7 @@ SOBRE LOS ARCHIVOS:
 - archivo.pdf: PDF que consiste en la memoria del trabajo. En este se explica en qué consiste el conjunto de datos, los problemas que se plantean, explicación del código de bicimad_final.py y algunas conclusiones y gráficas de los datos obtenidos de los archivos de texto.
 - bicimad_final.py: Programa con la librearía pySpark que resuelve diferentes problemas planteados sobre el conjunto de datos
 BiciMad tratándolos como un RDD. Un ejemplo de ejecución en el clúster sería: python3 bicimad_final.py "2017" "`seq 4 12`" /public/bicimad.
-- graficas.py: Programa Python para hacer las gráficas que aparecen en la memoria a partir de los archivos de texto.
+- graficas_bicimad.py: Programa Python para hacer las gráficas que aparecen en la memoria a partir de los archivos de texto.
 - desenganches_por_dia_por_estacion.txt, enganches_desenganches_por_estacion_por_dia.txt y enganches_por_dia_por_estacion corresponden a los datos obtenidos al estudiar el promedio de las frecuencias de enganche y desenganche de las bicis en las diferentes estaciones en función de los días de la semana.
 - tiempo_medio_por_dia_semana.txt, tiempo_medio_por_edad.txt y tiempo_medio_viaje_por_edad.txt son los datos sobre el estudio de los tiempos medios de viaje en función de la edad, día de la semana y el propio viaje.
 - usuarios_unicos_por_dia.txt y usuarios_unicos_por_mes.txt son los datos obtenidos sobre el estudio de la cantidad de usuarios únicos (es decir, sin contar si utilizan más de una vez BICIMAD en el mismo día) por día y por mes.
