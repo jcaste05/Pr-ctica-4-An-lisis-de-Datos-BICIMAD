@@ -2,7 +2,7 @@
 El objetivo de este trabajo ha consistido en crear un programa Python con la librería pySpark para dar solución a diferentes problemas que se han planteado sobre el conjunto de datos BICIMAD. Los archivos de texto corresponden a los datos solución obtenidos tras haber ejecutado el programa bicimad_final.py en el clúster @wild.mat.ucm.es sobre los datos del año 2017 en los meses entre abril y diciembre incluidos.
 
 SOBRE LOS ARCHIVOS:
-- archivo.pdf: PDF que consiste en la memoria del trabajo. En este se explica en qué consiste el conjunto de datos, los problemas que se plantean, explicación del código de bicimad_final.py y algunas conclusiones y gráficas de los datos obtenidos de los archivos de texto.
+- Trabajo_BICIMAD.pdf: PDF que consiste en la memoria del trabajo. En este se explica en qué consiste el conjunto de datos, los problemas que se plantean, explicación del código de bicimad_final.py y algunas conclusiones y gráficas de los datos obtenidos de los archivos de texto.
 - bicimad_final.py: Programa con la librearía pySpark que resuelve diferentes problemas planteados sobre el conjunto de datos
 BiciMad tratándolos como un RDD. Un ejemplo de ejecución en el clúster sería: python3 bicimad_final.py "2017" "`seq 4 12`" /public/bicimad.
 - graficas_bicimad.py: Programa Python para hacer las gráficas que aparecen en la memoria a partir de los archivos de texto.
